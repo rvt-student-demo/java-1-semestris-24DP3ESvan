@@ -12,6 +12,6 @@ public class ThreeAverage {
         System.out.println("Write Number 3: ");
         int number_3 = Integer.valueOf(scanner.nextLine());
         double result = (number_1 + number_2 + number_3) * 1.0 / 3;
-        System.out.println("Average is: " + result);
+        System.out.println("Average number is: " + result);
     }
 }
