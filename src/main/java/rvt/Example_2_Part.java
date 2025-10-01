@@ -3,6 +3,7 @@ package rvt;
 import java.util.Scanner;
 
 public class Example_2_Part {
+
     public static void main(String[] main) {
         //======================================
         // Creating the Scanner
@@ -36,5 +37,17 @@ public class Example_2_Part {
         }
         System.out.println("The sum of the numbers is " + sum); // Output: After while ends; Final Value
         //======================================
+        while (true) { // While equation is true:
+            System.out.println("Insert positive integers"); // Print
+            int number2 = Integer.valueOf(reader.nextLine()); // User inputed number
+
+            if (number2 <= 0) { // If Number is negative
+                System.out.println("Unfit number! Try again."); // Number is negative, will repeat until positive number
+                continue; // Back to the loop. without breaking it
+            } // Ends loop when number is positive
+
+            System.out.println("Your input was " + number2); // Output: Final Value
+        //======================================
+        }
     }
 }
