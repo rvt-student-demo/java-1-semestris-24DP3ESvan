@@ -1,7 +1,7 @@
 package rvt;
 import java.util.Scanner;
 
-public class Example {
+public class Example_1_Part {
     public static void main(String[] args) {
         //======================================
         System.out.println("Hello, world! \n ...and the universe!"); // Print text
