@@ -9,7 +9,7 @@ public class SumOfNumbers {
         int number_count = 0;
         int number_start = 0;
         while (true) { 
-            System.out.println("Insert number");
+            System.out.println("Insert number: ");
             int number = Integer.valueOf(reader.nextLine()); 
             if (number != 0){
                 number_count = number_count + 1;
