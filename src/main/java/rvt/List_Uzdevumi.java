@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class List_Uzdevumi {
 
     public static void main(String[] args) {
-        OnTheList();
+        RemoveLast();
     }
     //======================================
     public static void OnlyTheseNumbers() {
@@ -78,7 +78,7 @@ public class List_Uzdevumi {
         Uzd4.add("Second");
         Uzd4.add("Third");
         System.out.println(Uzd4);
-        Uzd4.remove(0);
+        Uzd4.remove(Uzd4.size() - 1);
         System.out.println(Uzd4);
         System.out.println("");
     }
