@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class List_Uzdevumi {
 
     public static void main(String[] args) {
+        OnlyTheseNumbers();
+        ListSize();
+        OnTheList();
         RemoveLast();
     }
     //======================================
@@ -14,10 +17,10 @@ public class List_Uzdevumi {
         ArrayList<Integer> Uzd1 = new ArrayList<>();
         int Num = 0;
         while (true) {
+            
             if (Num == -1) {
                 break;
             }
-            System.out.println("Input number");
             Num = Integer.valueOf(reader.nextLine());
             Uzd1.add(Num);
         }
@@ -78,7 +81,7 @@ public class List_Uzdevumi {
         Uzd4.add("Second");
         Uzd4.add("Third");
         System.out.println(Uzd4);
-        Uzd4.remove(Uzd4.size() - 1);
+        Uzd4.removeLast();
         System.out.println(Uzd4);
         System.out.println("");
     }
