@@ -1,9 +1,12 @@
 package rvt;
 
+import java.util.Scanner;
+
 public class Statistics {
     private int count;
     private int sum;
     private double average;
+    Scanner reader = new Scanner(System.in);
 
     public Statistics() {
         this.count = 0;
