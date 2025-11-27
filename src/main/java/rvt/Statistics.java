@@ -40,3 +40,4 @@ public class Statistics {
         System.out.println("Average: " + statistics.average());
     }
 }
+
