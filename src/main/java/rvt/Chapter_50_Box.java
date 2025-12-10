@@ -9,8 +9,8 @@ public class Chapter_50_Box {
         System.out.println("Area: " + box.area() + " volume: " + box.volume());
         System.out.println("Width: " + box.width() + ", Height: " + box.height() + ", Length: " + box.length());
         // Exercise 4 — Bigger / Smaller Boxes
-        Chapter_50 bigger = Chapter_50.Box.biggerBox(box);
-        Chapter_50 smaller = Chapter_50.Box.smallerBox(box);
+        Chapter_50 bigger = new Chapter_50(box);
+        Chapter_50 smaller = new Chapter_50(box);
         System.out.println("Bigger box dimensions: " + bigger.width() + " x " + bigger.height() + " x " + bigger.length());
         System.out.println("Smaller box dimensions: " + smaller.width() + " x " + smaller.height() + " x " + smaller.length());
         // Exercise 5 — Nesting
