@@ -23,3 +23,4 @@ public class NumberAndSumOfNumbers {
         System.out.println("Total Sum: " + number_start);
     }
 }
+// Part 2-2
