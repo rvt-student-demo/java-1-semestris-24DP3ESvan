@@ -10,4 +10,4 @@ public class SecondsInADay {
         int Day = number * 60 * 60 * 24;
         System.out.println("You converted " + number + " days into " + Day + " seconds");
     }
-}
+}// Part 1-6
