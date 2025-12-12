@@ -16,3 +16,4 @@ public class AverageOfThreeNumbers {
         System.out.println("Average number is: " + result);
     }
 }
+// Part 1-5
