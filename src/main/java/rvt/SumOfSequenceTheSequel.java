@@ -22,3 +22,4 @@ public class SumOfSequenceTheSequel {
         scanner.close();
     }
 }
+// Part 2-3
