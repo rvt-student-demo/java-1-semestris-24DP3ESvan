@@ -36,3 +36,4 @@ public class Counter {
         System.out.println("Value now: " + counter.value());
     }
 }
+// Part 5-2
